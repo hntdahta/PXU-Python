@@ -17,3 +17,14 @@ class SinhVienView(object):
             print("Insert thanh cong")
         else:
             print("Fail")
+
+    def ket_qua_update(self):
+        print ("Update thành công")
+
+    def ket_qua_delete(self):
+        print("Delete thành công")
+
+    def thong_bao_loi(self, err_msg):
+        print('-' * 30)
+        print(err_msg)
+        print('-' * 30)
