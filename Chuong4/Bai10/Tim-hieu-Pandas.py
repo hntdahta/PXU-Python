@@ -1,6 +1,6 @@
 import pandas as pd
 
-a = pd.read_excel("E:\Python\Book1.xlsx")
+a = pd.read_excel("C:\Desktop\Test.xlsx")
 a1 = a.head(10)
 print(a)
 
