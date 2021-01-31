@@ -11,18 +11,18 @@ class SinhVienView(object):
         print("-----Kết thúc hiển thị dữ liệu------")
 
         # Hàm thông báo kết quả insert
-    def ket_qua_insert(self, resultID):
-        id = resultID[0]
-        if id > 0:
-            print("Insert thanh cong")
-        else:
-            print("Fail")
-
-    def ket_qua_update(self):
-        print ("Update thành công")
-
-    def ket_qua_delete(self):
-        print("Delete thành công")
+    # def ket_qua_insert(self, resultID):
+    #     id = resultID[0]
+    #     if id > 0:
+    #         print("Insert thanh cong")
+    #     else:
+    #         print("Fail")
+    #
+    # def ket_qua_update(self):
+    #     print ("Update thành công")
+    #
+    # def ket_qua_delete(self):
+    #     print("Delete thành công")
 
     def thong_bao_loi(self, err_msg):
         print('-' * 30)
